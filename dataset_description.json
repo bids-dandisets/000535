@@ -1,0 +1,23 @@
+{
+    "Name": "Allen Institute Openscope - Effects of Periodic Visual Stimulation on Neural Activity in Mouse Visual Cortex",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "This study investigates the effects of periodic sensory stimulation (PSS) on the activity of neurons of different types in the mouse visual cortex. The PSS modality used is the flickering light visual stimulation. The dataset provides calcium imaging data from VIP (vasoactive intestinal peptide), SST (somatostatin), and PV (parvalbumin) expressing inhibitory neuron, as well as excitatory neurons in V1, in mice exposed to different visual stimulation conditions.\n \nThe visual stimulus is provided by an LED strip that is programmed for 4 conditions: 40 Hz flicker (gamma frequency), 8 Hz flicker (theta frequency), random frequency (light delivered with a random interval determined by a Poisson process with an average frequency of 40 Hz), and constant light on. Those conditions are reported in NWB file trial table. The LED strip was positioned in front of the mouse right eye in place of the visual stimulation screen used in (De Vries, Lecoq, Buice et al, Nature Neuroscience 2020). Light illumination started approximately 485 seconds into the experiment. The exact timing can be found in the stimulus table. Each mouse was recorded multiple times with individual cells matched. Each recording session only used one of the above stimulus conditions.\n \nThe data includes images from layers 2/3 and 5 (layer 4 instead of 5 for VIP) of the left visual cortex, capturing the contributions of superficial and deep cortical neurons to the network dynamics under visual PSS. The dataset was collected from 5 mice for SST, 6 mice for VIP, 2 mice for PV, and 2 mice for excitatory neurons. Mice were awake but not trained to perform any tasks. They were passively viewing the LED strip.  All animal procedures were approved by the Institutional Animal Care and Use Committee (IACUC) at the Allen Institute for Brain Science in compliance with NIH guidelines.",
+    "DatasetType": "raw",
+    "Authors": [
+        "Murdock, Mitchell H.",
+        "Arkhipov, Anton",
+        "Ito, Shinya",
+        "Ren, Naixin",
+        "Billeh, Yazan N."
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
